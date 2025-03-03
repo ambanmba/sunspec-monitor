@@ -71,19 +71,19 @@ status option *-b* can be used. This support was contributed by Ilker Deligoz. M
 syntax: sunspec-status [options] <host>
 
 Options:
- --port=<port>, -p <port>             Use port (default 502)
- --address=<addr>, -a <addr>          Modbus Address (default 1)
- --meter=<meter>, -m <meter>          Query meter (default 1) 
-                                      (meter = 1..3  or 0 = no meter)
- --phase=<phase>, -P <phase>          Report PF for single phase only
-                                      (phase = A,B,C)
- -battery=<batteries>, -b <batteries> Query battery status (e.g., 1 or 1,2)
- --numeric, -n                        Numeric output mode (time, status)
- --json, -j                           Output in JSON (instead of CSV) format
- --timeout=<sec>, -t <sec>            Timeout (default 10)
- --output=<filename>, -f <filename>   Append results to a file
- --verbose, -v                        Verbose mode
- --debug, -d                          Debug mode (dump raw Sunspec register values)
+ --port=<port>, -p <port>              Use port (default 502)
+ --address=<addr>, -a <addr>           Modbus Address (default 1)
+ --meter=<meter>, -m <meter>           Query meter (default 1) 
+                                       (meter = 1..3  or 0 = no meter)
+ --phase=<phase>, -P <phase>           Report PF for single phase only
+                                       (phase = A,B,C)
+ --battery=<batteries>, -b <batteries> Query battery status (e.g., 1 or 1,2)
+ --numeric, -n                         Numeric output mode (time, status)
+ --json, -j                            Output in JSON (instead of CSV) format
+ --timeout=<sec>, -t <sec>             Timeout (default 10)
+ --output=<filename>, -f <filename>    Append results to a file
+ --verbose, -v                         Verbose mode
+ --debug, -d                           Debug mode (dump raw Sunspec register values)
 ```
 
 ### Examples
